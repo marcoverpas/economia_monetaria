@@ -4,7 +4,13 @@
 
 *Marco Veronese Passarella*
 
-> Testo di base: appunti per il seminario al Liceo Torlonia di Avezzano (25 gennaio 2025, rivisto il 15 maggio 2025), qui riadattato in forma di mini-corso per studenti e *practitioners*.
+<div align="center">
+<figure>
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/economia_monetaria_cover.png" width="1000">
+</figure>
+</div>
+
+[*Italian only*] Testo di base: appunti per il seminario al Liceo Torlonia di Avezzano (25 gennaio 2025, rivisto il 15 maggio 2025), qui riadattato in forma di mini-corso per studenti e *practitioners*.
 
 ---
 
@@ -172,6 +178,15 @@ Nella seconda si rivela invece l'essenza del capitalismo: il capitalista, o l'im
 Sulla base di questa intuizione di Marx, ripresa da Keynes, è dunque possibile affermare che la funzione più importante, e troppo spesso dimenticata, della moneta in un sistema capitalistico è di finanziare i piani di produzione delle imprese e, inoltre, di consentire la monetizzazione dei profitti.
 
 Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquistare sul mercato la forza-lavoro necessaria a produrre beni e servizi. I salariati spenderanno poi il proprio reddito per consumi o per investimenti di portafoglio. In tal modo, (parte de) la moneta pagata in forma di salario ritornerà nelle casse delle imprese, che potranno restituire il finanziamento ricevuto alle banche.
+
+<div align="center">
+<table>
+<tr><td width="820" align="center">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/monetary_circuit.png" width="800" alt="Il circuito della moneta"><br>
+<sub><em>Figura 1 - Lo schema base del circuito monetario di Graziani.</em></sub>
+</td></tr>
+</table>
+</div>
 
 Questa impostazione è nota come *teoria del circuito monetario*, ed ha avuto in Augusto Graziani ed altri autori italiani e francesi i propri maggiori esponenti. Essa consente di gettare luce sulla natura di *flusso endogeno* della moneta, in opposizione all'idea di moneta come *stock* esogeno (legata alla concezione del denaro come lubrificante degli scambi) e ad integrazione dell'idea di moneta come *stock* endogeno (legata alla teoria keynesiana della crisi). Ne derivano immediatamente alcuni corollari. Un primo corollario riguarda la sparizione del moltiplicatore della moneta. Un secondo corollario riguarda il rapporto tra moneta e prezzi.
 
