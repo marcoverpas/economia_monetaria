@@ -12,7 +12,9 @@
 </figure>
 </div>
 
-Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*. 🚧
+Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*. 
+
+🚧 ATTENZIONE: *Work in progress* 🚧
 
 > I codici sono scritti in **R** (coerentemente con il repository di Macerata). Il modello usa solo funzioni di base; l'animazione richiede il pacchetto [`gifski`](https://cran.r-project.org/package=gifski).
 
@@ -227,7 +229,7 @@ Il seguito naturale di questo mini-corso è il repository di lezioni dottorali *
 - **Lezione A - Teoria del circuito monetario:** la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
 - **Lezione B - Modelli *stock-flow consistent* (SFC):** dal modello *PC* (scelta di portafoglio) al modello *BMW* (con banche commerciali), fino alle estensioni *input-output* ed ecologiche.
 
-🚧 *Work in progress* 🚧
+🚧 ATTENZIONE: *Work in progress* 🚧
 
 ---
 
