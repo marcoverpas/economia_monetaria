@@ -1,6 +1,6 @@
 # Che cos'è la moneta?
 
-### Un mini-corso di economia monetaria
+### Mini corso di economia monetaria
 
 *Marco Veronese Passarella*
 
