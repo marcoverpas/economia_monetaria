@@ -4,7 +4,7 @@
 
 *Marco Veronese Passarella*
 
-[*Italian only*] Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un piccolo insieme di modelli e figure che ne illustrano i passaggi analitici. L'obiettivo è duplice: offrire una narrazione accessibile del dibattito monetario degli ultimi tre secoli e mettere a disposizione strumenti riproducibili (codice e animazioni) per chi voglia toccare con mano i meccanismi descritti.
+[*Italian only*] Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un piccolo insieme di modelli e figure che ne illustrano i passaggi analitici. L'obiettivo è duplice: offrire una narrazione accessibile del dibattito monetario degli ultimi tre secoli e mettere a disposizione strumenti riproducibili (codice e animazioni) per chi voglia toccare con mano i meccanismi descritti. 
 
 <div align="center">
 <figure>
@@ -12,7 +12,7 @@
 </figure>
 </div>
 
-Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*.
+Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*. 🚧
 
 > I codici sono scritti in **R** (coerentemente con il repository di Macerata). Il modello usa solo funzioni di base; l'animazione richiede il pacchetto [`gifski`](https://cran.r-project.org/package=gifski).
 
