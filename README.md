@@ -220,7 +220,7 @@ Detto diversamente, affinché le imprese considerate nel loro insieme possano es
 
 La moneta svolge quindi una funzione fondamentale, che non esclude ma si somma a quella di lubrificante (o mezzo di scambio), unità di conto, numerario e riserva di ricchezza. La moneta è, anzitutto, il mezzo di pagamento che consente alle imprese di acquistare forza-lavoro e di dare così avvio all'intero processo economico. È, più precisamente, lo strumento che consente di esercitare quel comando capitalistico sul lavoro vivo che, lontano dalla superficie luccicante dei mercati, si dispiega nei sotterranei segreti della produzione.
 
-Perché, vedete, aveva ragione Groucho Marx a ricordarci che, per le cose importanti, ci vogliono i soldi per comperarle. Ma si dimenticava di aggiungere che prima qualcuno deve produrle. Ecco, la moneta serve a questo: a far sì che le produca qualcun altro.
+Perché, vedete, aveva ragione Groucho Marx a ricordarci che, le cose importanti, ci vogliono i soldi per comperarle. Ma si dimenticava di aggiungere che prima qualcuno deve produrle. Ecco, la moneta serve a questo: a far sì che le produca qualcun altro.
 
 ## 11. Per approfondire
 
