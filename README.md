@@ -14,18 +14,6 @@ Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un p
 
 Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*.
 
-**Contenuto della cartella**
-
-```
-.
-├── README.md                     # questo testo
-├── models/
-│   └── monetary_circuit.py       # modello del circuito monetario (Python)
-├── figures/
-│   ├── monetary_circuit.gif      # animazione del circuito
-│   ├── circuit_reflux.png        # grafici di sintesi del modello
-│   └── make_circuit_gif.py       # script che genera l'animazione
-└── NOTE_DI_REVISIONE.md          # elenco delle correzioni e delle imprecisioni segnalate
 ```
 
 **Indice**
