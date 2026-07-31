@@ -4,19 +4,13 @@
 
 *Marco Veronese Passarella*
 
+[*Italian only*] Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un piccolo insieme di modelli e figure che ne illustrano i passaggi analitici. L'obiettivo è duplice: offrire una narrazione accessibile del dibattito monetario degli ultimi tre secoli e mettere a disposizione strumenti riproducibili (codice e animazioni) per chi voglia toccare con mano i meccanismi descritti.
+
 <div align="center">
 <figure>
 <img src="https://raw.githubusercontent.com/marcoverpas/figures/main/economia_monetaria_cover.png" width="1000">
 </figure>
 </div>
-
-[*Italian only*] Testo di base: appunti per il seminario al Liceo Torlonia di Avezzano (25 gennaio 2025, rivisto il 15 maggio 2025), qui riadattato in forma di mini-corso per studenti e *practitioners*.
-
----
-
-## Come è organizzato questo mini-corso
-
-Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un piccolo insieme di modelli e figure che ne illustrano i passaggi analitici. L'obiettivo è duplice: offrire una narrazione accessibile del dibattito monetario degli ultimi tre secoli e mettere a disposizione strumenti riproducibili (codice e animazioni) per chi voglia toccare con mano i meccanismi descritti.
 
 Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*.
 
