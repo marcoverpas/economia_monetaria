@@ -176,7 +176,7 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 <div align="center">
 <table>
 <tr><td width="820" align="center">
-<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/monetary_circuit.png" width="800" alt="Il circuito della moneta"><br>
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/monetary_circuit.gif" width="800" alt="Il circuito della moneta"><br>
 <sub><em>Figura 1 - Lo schema base del circuito monetario di Graziani.</em></sub>
 </td></tr>
 </table>
