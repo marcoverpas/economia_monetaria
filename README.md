@@ -14,8 +14,6 @@ Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un p
 
 Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*.
 
-```
-
 **Indice**
 
 1. [Introduzione](#1-introduzione)
