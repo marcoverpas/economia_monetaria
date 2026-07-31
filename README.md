@@ -227,6 +227,8 @@ Il seguito naturale di questo mini-corso è il repository di lezioni dottorali *
 - **Lezione A - Teoria del circuito monetario:** la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
 - **Lezione B - Modelli *stock-flow consistent* (SFC):** dal modello *PC* (scelta di portafoglio) al modello *BMW* (con banche commerciali), fino alle estensioni *input-output* ed ecologiche.
 
+🚧 *Work in progress* 🚧
+
 ---
 
 ## Riferimenti bibliografici essenziali
