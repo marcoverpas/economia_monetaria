@@ -28,8 +28,7 @@ Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Ch
 8. [Il circuito della moneta](#8-il-circuito-della-moneta)
 9. [Implicazioni della moneta endogena](#9-implicazioni-della-moneta-endogena)
 10. [Conclusioni](#10-conclusioni)
-11. [Modelli e codici](#11-modelli-e-codici)
-13. [Per approfondire](#12-per-approfondire)
+11. [Per approfondire](#11-per-approfondire)
 
 ---
 
@@ -212,13 +211,7 @@ La moneta svolge quindi una funzione fondamentale, che non esclude ma si somma a
 
 Perché, vedete, aveva ragione Groucho Marx a ricordarci che, per le cose importanti, ci vogliono i soldi per comperarle. Ma si dimenticava di aggiungere che prima qualcuno deve produrle. Ecco, la moneta serve a questo: a far sì che le produca qualcun altro.
 
-## 11. Modelli e codici
-
-I modelli sono scritti in `R` e pensati per essere eseguiti e modificati dai lettori. Il modello usa solo funzioni di base. L'animazione dei grafici richiede il pacchetto `gifski`rizzata (pari al debito residuo) e 5 di interesse che nel circuito non è mai stato creato.
-
-![Il circuito monetario](figures/monetary_circuit.gif)
-
-## 12. Per approfondire
+## 11. Per approfondire
 
 Il seguito naturale di questo mini-corso è il repository di lezioni dottorali **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**, che sviluppa in forma più formale i temi qui introdotti:
 
