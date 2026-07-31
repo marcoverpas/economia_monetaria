@@ -14,6 +14,8 @@ Questa cartella raccoglie un testo introduttivo sulla natura della moneta e un p
 
 Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. Nel testo che segue, i richiami a quel materiale sono segnalati con la dicitura *(per approfondire → Macerata)*.
 
+> I codici sono scritti in **R** (coerentemente con il repository di Macerata). Il modello usa solo funzioni di base; l'animazione richiede il pacchetto [`gifski`](https://cran.r-project.org/package=gifski).
+
 **Indice**
 
 1. [Introduzione](#1-introduzione)
@@ -175,7 +177,7 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 
 Questa impostazione è nota come *teoria del circuito monetario*, ed ha avuto in Augusto Graziani ed altri autori italiani e francesi i propri maggiori esponenti. Essa consente di gettare luce sulla natura di *flusso endogeno* della moneta, in opposizione all'idea di moneta come *stock* esogeno (legata alla concezione del denaro come lubrificante degli scambi) e ad integrazione dell'idea di moneta come *stock* endogeno (legata alla teoria keynesiana della crisi). Ne derivano immediatamente alcuni corollari. Un primo corollario riguarda la sparizione del moltiplicatore della moneta. Un secondo corollario riguarda il rapporto tra moneta e prezzi.
 
-> **Vedi il modello.** Il circuito descritto in questo paragrafo è implementato in [`models/monetary_circuit.py`](models/monetary_circuit.py) e animato in [`figures/monetary_circuit.gif`](figures/monetary_circuit.gif). *(Per approfondire → [Macerata, Lezione A](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025): la teoria del circuito monetario e il modello MCT in 5 passi.)*
+> **Vedi il modello.** Il circuito descritto in questo paragrafo è implementato in [`models/monetary_circuit.R`](models/monetary_circuit.R) e animato in [`figures/monetary_circuit.gif`](figures/monetary_circuit.gif). *(Per approfondire → [Macerata, Lezione A](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025): la teoria del circuito monetario e il modello MCT in 5 passi.)*
 
 ## 9. Implicazioni della moneta endogena
 
@@ -213,13 +215,13 @@ Perché, vedete, aveva ragione Groucho Marx a ricordarci che, per le cose import
 
 ## 11. Modelli e codici
 
-I modelli sono scritti in Python e pensati per essere eseguiti e modificati dai lettori. Richiedono `numpy` e `matplotlib`:
+I modelli sono scritti in R e pensati per essere eseguiti e modificati dai lettori. Il modello usa solo funzioni di base; l'animazione (§12) richiede il pacchetto `gifski`:
 
-```bash
-pip install numpy matplotlib
+```r
+install.packages("gifski")   # solo per rigenerare l'animazione
 ```
 
-### `models/monetary_circuit.py` — il circuito monetario
+### `models/monetary_circuit.R` — il circuito monetario
 
 Un modello didattico a "fasi" del circuito monetario chiuso (§8), con tre settori: Banche, Imprese e Lavoratori. Il modello mostra:
 
@@ -231,7 +233,7 @@ Un modello didattico a "fasi" del circuito monetario chiuso (§8), con tre setto
 Parametri principali: finanziamento iniziale $F$ (pari al monte salari $W$), propensione al consumo $c$, quota di risparmio investita in titoli d'impresa $\lambda$, tasso d'interesse $i$. Vale l'identità $R + H = W$, dove $R = W\,[c + \lambda(1-c)]$ è la moneta che rifluisce e $H = W\,(1-\lambda)(1-c)$ è la moneta tesaurizzata.
 
 ```bash
-python3 models/monetary_circuit.py
+Rscript models/monetary_circuit.R
 ```
 
 L'esecuzione stampa il tracciato della moneta in circolazione lungo il circuito e genera la figura di sintesi `figures/circuit_reflux.png`.
@@ -240,15 +242,17 @@ L'esecuzione stampa il tracciato della moneta in circolazione lungo il circuito 
 
 ## 12. Figure animate
 
-L'animazione seguente illustra le fasi del circuito monetario: creazione (Banche → Imprese), pagamento dei salari (Imprese → Lavoratori), riflusso via consumi e titoli (Lavoratori → Imprese) e distruzione della moneta con il rimborso (Imprese → Banche). Il contatore a destra segue la moneta bancaria in circolazione: sale a 100 con il finanziamento iniziale e ridiscende a 10 con il rimborso, lasciando 10 di moneta tesaurizzata (pari al debito residuo) e 5 di interesse che nel circuito non è mai stato creato.
+L'animazione seguente illustra le fasi del circuito monetario: creazione (Banche → Imprese), pagamento dei salari (Imprese → Lavoratori), riflusso dai lavoratori alle imprese che transita per il **mercato dei beni** (consumi) e per il **mercato finanziario** (acquisto di titoli), e distruzione della moneta con il rimborso (Imprese → Banche). Il contatore a destra segue la moneta bancaria in circolazione: sale a 100 con il finanziamento iniziale e ridiscende a 10 con il rimborso, lasciando 10 di moneta tesaurizzata (pari al debito residuo) e 5 di interesse che nel circuito non è mai stato creato.
 
 ![Il circuito monetario](figures/monetary_circuit.gif)
 
 L'animazione è rigenerabile con:
 
 ```bash
-python3 figures/make_circuit_gif.py
+Rscript figures/make_circuit_gif.R
 ```
+
+(richiede `install.packages("gifski")`; il disegno usa la grafica di base di R.)
 
 ## 13. Per approfondire
 
@@ -257,7 +261,9 @@ Il seguito naturale di questo mini-corso è il repository di lezioni dottorali *
 - **Lezione A — Teoria del circuito monetario:** la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
 - **Lezione B — Modelli *stock-flow consistent* (SFC):** dal modello *PC* (scelta di portafoglio) al modello *BMW* (con banche commerciali), fino alle estensioni *input-output* ed ecologiche.
 
-Alcuni riferimenti classici:
+---
+
+## Riferimenti bibliografici essenziali
 
 - A. Graziani, *The Monetary Theory of Production*, Cambridge University Press, 2003.
 - W. Godley, M. Lavoie, *Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth*, Palgrave Macmillan, 2007.
