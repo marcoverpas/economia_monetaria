@@ -29,8 +29,7 @@ Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Ch
 9. [Implicazioni della moneta endogena](#9-implicazioni-della-moneta-endogena)
 10. [Conclusioni](#10-conclusioni)
 11. [Modelli e codici](#11-modelli-e-codici)
-12. [Figure animate](#12-figure-animate)
-13. [Per approfondire](#13-per-approfondire)
+13. [Per approfondire](#12-per-approfondire)
 
 ---
 
@@ -123,11 +122,11 @@ Ogni volta che Marco richiede ed ottiene dalla banca X un prestito di 1 € (una
 
 **(a) Creazione della moneta (Marco ottiene un prestito di 1 € dalla banca X)**
 
-| Banca X — Attività | Banca X — Passività |
+| Banca X - Attività | Banca X - Passività |
 |---|---|
 | Prestito a Marco: +1 € | Deposito di Marco: +1 € |
 
-| Marco — Attività | Marco — Passività |
+| Marco - Attività | Marco - Passività |
 |---|---|
 | Deposito presso X: +1 € | Debito verso la banca: +1 € |
 
@@ -137,7 +136,7 @@ Se acquirente (Marco) e venditore (Luca) fanno capo alla stessa banca X, il paga
 
 **(b) Pagamento con la stessa banca (Marco paga 1 € a Luca, entrambi clienti di X)**
 
-| Banca X — Attività | Banca X — Passività |
+| Banca X - Attività | Banca X - Passività |
 |---|---|
 | Prestito a Marco: +1 € | Deposito di Luca: +1 € |
 
@@ -147,15 +146,15 @@ Se, invece, acquirente e venditore fanno capo a due banche diverse, X e Y, suben
 
 **(c) Pagamento con due banche (Marco cliente di X paga 1 € a Luca cliente di Y)**
 
-| Banca X — Attività | Banca X — Passività |
+| Banca X - Attività | Banca X - Passività |
 |---|---|
 | Prestito a Marco: +1 € | Debito interbancario (verso Y / BC): +1 € |
 
-| Banca Y — Attività | Banca Y — Passività |
+| Banca Y - Attività | Banca Y - Passività |
 |---|---|
 | Credito interbancario (verso X / BC): +1 € | Deposito di Luca: +1 € |
 
-| Banca Centrale — Attività | Banca Centrale — Passività |
+| Banca Centrale - Attività | Banca Centrale - Passività |
 |---|---|
 | (invariata) | Riserve di X: −1 € ; Riserve di Y: +1 € |
 
@@ -177,7 +176,7 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 
 Questa impostazione è nota come *teoria del circuito monetario*, ed ha avuto in Augusto Graziani ed altri autori italiani e francesi i propri maggiori esponenti. Essa consente di gettare luce sulla natura di *flusso endogeno* della moneta, in opposizione all'idea di moneta come *stock* esogeno (legata alla concezione del denaro come lubrificante degli scambi) e ad integrazione dell'idea di moneta come *stock* endogeno (legata alla teoria keynesiana della crisi). Ne derivano immediatamente alcuni corollari. Un primo corollario riguarda la sparizione del moltiplicatore della moneta. Un secondo corollario riguarda il rapporto tra moneta e prezzi.
 
-> **Vedi il modello.** Il circuito descritto in questo paragrafo è implementato in [`models/monetary_circuit.R`](models/monetary_circuit.R) e animato in [`figures/monetary_circuit.gif`](figures/monetary_circuit.gif). *(Per approfondire → [Macerata, Lezione A](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025): la teoria del circuito monetario e il modello MCT in 5 passi.)*
+> **Vedi il modello.** Il circuito descritto in questo paragrafo è implementato in [`monetary_circuit.R`](monetary_circuit.R). *(Per approfondire → [Macerata, Lezione A](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025): la teoria del circuito monetario e il modello MCT in 5 passi.)*
 
 ## 9. Implicazioni della moneta endogena
 
@@ -215,51 +214,16 @@ Perché, vedete, aveva ragione Groucho Marx a ricordarci che, per le cose import
 
 ## 11. Modelli e codici
 
-I modelli sono scritti in R e pensati per essere eseguiti e modificati dai lettori. Il modello usa solo funzioni di base; l'animazione (§12) richiede il pacchetto `gifski`:
-
-```r
-install.packages("gifski")   # solo per rigenerare l'animazione
-```
-
-### `models/monetary_circuit.R` — il circuito monetario
-
-Un modello didattico a "fasi" del circuito monetario chiuso (§8), con tre settori: Banche, Imprese e Lavoratori. Il modello mostra:
-
-1. il **finanziamento iniziale** (creazione di moneta come flusso endogeno);
-2. il **riflusso** della moneta verso le imprese via consumi e acquisto di titoli;
-3. la **distruzione della moneta** con il rimborso dei prestiti;
-4. il **paradosso dei profitti monetari**: le imprese, nel loro complesso, non possono rimborsare né la parte di prestito corrispondente alla moneta tesaurizzata dai lavoratori, né l'interesse monetario, che semplicemente non esiste come moneta all'interno del circuito.
-
-Parametri principali: finanziamento iniziale $F$ (pari al monte salari $W$), propensione al consumo $c$, quota di risparmio investita in titoli d'impresa $\lambda$, tasso d'interesse $i$. Vale l'identità $R + H = W$, dove $R = W\,[c + \lambda(1-c)]$ è la moneta che rifluisce e $H = W\,(1-\lambda)(1-c)$ è la moneta tesaurizzata.
-
-```bash
-Rscript models/monetary_circuit.R
-```
-
-L'esecuzione stampa il tracciato della moneta in circolazione lungo il circuito e genera la figura di sintesi `figures/circuit_reflux.png`.
-
-![Grafici di sintesi del circuito](figures/circuit_reflux.png)
-
-## 12. Figure animate
-
-L'animazione seguente illustra le fasi del circuito monetario: creazione (Banche → Imprese), pagamento dei salari (Imprese → Lavoratori), riflusso dai lavoratori alle imprese che transita per il **mercato dei beni** (consumi) e per il **mercato finanziario** (acquisto di titoli), e distruzione della moneta con il rimborso (Imprese → Banche). Il contatore a destra segue la moneta bancaria in circolazione: sale a 100 con il finanziamento iniziale e ridiscende a 10 con il rimborso, lasciando 10 di moneta tesaurizzata (pari al debito residuo) e 5 di interesse che nel circuito non è mai stato creato.
+I modelli sono scritti in `R` e pensati per essere eseguiti e modificati dai lettori. Il modello usa solo funzioni di base. L'animazione dei grafici richiede il pacchetto `gifski`rizzata (pari al debito residuo) e 5 di interesse che nel circuito non è mai stato creato.
 
 ![Il circuito monetario](figures/monetary_circuit.gif)
 
-L'animazione è rigenerabile con:
-
-```bash
-Rscript figures/make_circuit_gif.R
-```
-
-(richiede `install.packages("gifski")`; il disegno usa la grafica di base di R.)
-
-## 13. Per approfondire
+## 12. Per approfondire
 
 Il seguito naturale di questo mini-corso è il repository di lezioni dottorali **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**, che sviluppa in forma più formale i temi qui introdotti:
 
-- **Lezione A — Teoria del circuito monetario:** la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
-- **Lezione B — Modelli *stock-flow consistent* (SFC):** dal modello *PC* (scelta di portafoglio) al modello *BMW* (con banche commerciali), fino alle estensioni *input-output* ed ecologiche.
+- **Lezione A - Teoria del circuito monetario:** la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
+- **Lezione B - Modelli *stock-flow consistent* (SFC):** dal modello *PC* (scelta di portafoglio) al modello *BMW* (con banche commerciali), fino alle estensioni *input-output* ed ecologiche.
 
 ---
 
