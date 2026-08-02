@@ -186,7 +186,7 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 
 Questa impostazione è nota come *teoria del circuito monetario*, ed ha avuto in Augusto Graziani ed altri autori italiani e francesi i propri maggiori esponenti. Essa consente di gettare luce sulla natura di *flusso endogeno* della moneta, in opposizione all'idea di moneta come *stock* esogeno (legata alla concezione del denaro come lubrificante degli scambi) e ad integrazione dell'idea di moneta come *stock* endogeno (legata alla teoria keynesiana della crisi). Ne derivano immediatamente alcuni corollari. Un primo corollario riguarda la sparizione del moltiplicatore della moneta. Un secondo corollario riguarda il rapporto tra moneta e prezzi.
 
-> **Vedi il modello.** Il circuito descritto in questo paragrafo è implementato in [`monetary_circuit.R`](monetary_circuit.R). *(Per approfondire → [Macerata, Lezione A](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025): la teoria del circuito monetario e il modello MCT in 5 passi.)*
+> **Vedi il modello.** Il codice `R` del modello di circuito monetario utilizzato per produrre la Figura 1 può essere consultato e scaricato da [qui](monetary_circuit.R). Una versione meno tradizionale, ma più avanzata e a mio avviso accurata del modello del circuito è dispnibile [qui](https://github.com/marcoverpas/TMC-SFC-Model-R).
 
 ## 9. Implicazioni della moneta endogena
 
@@ -241,4 +241,5 @@ Il seguito naturale di questo mini-corso è il repository di lezioni dottorali *
 - W. Godley, M. Lavoie, *Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth*, Palgrave Macmillan, 2007.
 - J. M. Keynes, *The General Theory of Employment, Interest and Money*, 1936.
 - G. F. Knapp, *The State Theory of Money*, 1924 (ed. orig. 1905).
-- A. M. Innes, "What is Money?", *Banking Law Journal*, 1913.
+- A. M. Innes, "What is Money?", *Banking Law Journal*, 1913, 30(5): 377-408.
+- M. Veronese Passarella, "It is not la vie en rose: new insights from Graziani’s theory of the monetary circuit", *European Journal of Economics and Economic Policies: Intervention*, 2024, 21(3): 461-485.
