@@ -159,7 +159,7 @@ Se, invece, acquirente e venditore fanno capo a due banche diverse, X e Y, suben
 |---|---|
 | (invariata) | Riserve di X: −1 € ; Riserve di Y: +1 € |
 
-È in virtù di questo processo di triangolazione che il rapporto di credito/debito tra Marco e Luca (e quello tra le due banche commerciali) può estinguersi a seguito del pagamento, rimanendo invece aperto un rapporto tra ciascuno dei contraenti e le rispettive banche (nonché tra queste e la banca centrale). Insomma, sembra proprio che Patty Pravo abbia colto l'essenza di un'economia monetaria più di Renato Zero.
+È in virtù di questo processo di triangolazione che il rapporto di credito/debito tra Marco e Luca (e quello tra le due banche commerciali) può estinguersi a seguito del pagamento, rimanendo invece aperto un rapporto tra ciascuno dei contraenti e le rispettive banche (nonché tra queste e la banca centrale). Insomma, sembra proprio che [Patty Pravo](https://it.wikipedia.org/wiki/Pensiero_stupendo) abbia colto l'essenza di un'economia monetaria più di [Renato Zero](https://it.wikipedia.org/wiki/Triangolo/Sesso_o_esse).
 
 Ricapitolando: la funzione cruciale della moneta, in una società capitalistica, è quella di fungere da mezzo di pagamento attraverso la triangolazione di un rapporto di credito/debito. Non, però, per comperare una merce qualsiasi, ma per acquistare una merce molto particolare.
 
