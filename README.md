@@ -117,9 +117,9 @@ Le imprese abbisognano dell'una e dell'altra. Senza forza-lavoro, e senza moneta
 
 Da dove viene la moneta che le imprese utilizzano per acquistare la forza-lavoro? Non dallo Stato, ma dalle banche. Naturalmente, è possibile argomentare che il potere liberatorio della moneta bancaria venga in ultima istanza conferito dallo Stato, con la Banca Centrale a fare da garante, ossia a fungere da banca delle banche.
 
-Questo, però, non toglie che siano le banche private (o, come lo avrebbe chiamato Marx, il capitale monetario o finanziario) a dare avvio al processo. Non a caso, oltre il novanta per cento della moneta in circolazione è oggi rappresentata da passività bancarie, che si configurano come una creazione *dal nulla*. Una banca, infatti, crea un euro di depositi ogni volta che concede un euro di prestiti. Si consideri, al riguardo, l'esempio seguente.
+Questo, però, non toglie che siano le banche private (o, come lo avrebbe chiamato Marx, il capitale monetario o finanziario) a dare avvio al processo. Non a caso, oltre il novanta per cento della moneta in circolazione è oggi rappresentata da passività bancarie, che si configurano come una creazione *dal nulla*. Una banca, infatti, crea un euro di depositi ogni volta che concede un euro di prestiti.
 
-Ogni volta che Marco richiede ed ottiene dalla banca X un prestito di 1 € (una passività, registrata da Marco nella colonna di destra del proprio mastrino contabile), la banca procede ad accreditare il suo conto dello stesso importo, creando così depositi per 1 € (un'attività per Marco, registrata a sinistra):
+Si consideri, al riguardo, l'esempio seguente. Ogni volta che Marco richiede ed ottiene dalla banca X un prestito di 1 € (una passività, registrata da Marco nella colonna di destra del proprio mastrino contabile), la banca procede ad accreditare il suo conto dello stesso importo, creando così depositi per 1 € (un'attività per Marco, registrata a sinistra):
 
 **(a) Creazione della moneta (Marco ottiene un prestito di 1 € dalla banca X)**
 
