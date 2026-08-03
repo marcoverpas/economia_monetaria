@@ -213,7 +213,7 @@ Sennonché, proprio l'instabilità monetaria e finanziaria che ha caratterizzato
 <table align="center">
   <tr>
     <td align="center">
-      <img src="figures/moneta_endogena.png" alt="La moneta endogena: il mercato dei prestiti a quattro quadranti" width="620">
+      <img src="https://raw.githubusercontent.com/marcoverpas/figures/main/moneta_endogena.png" alt="La moneta endogena: il mercato dei prestiti a quattro quadranti" width="620">
     </td>
   </tr>
   <tr>
