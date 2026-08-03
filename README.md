@@ -210,6 +210,17 @@ dove $Y$ è un indicatore del volume della produzione (o un vettore di quantità
 
 Sennonché, proprio l'instabilità monetaria e finanziaria che ha caratterizzato le maggiori economie mondiali a partire dalla fine degli anni Settanta ha mostrato che la velocità di circolazione della moneta è tutt'altro che stabile, aumentando nelle fasi di espansione e precipitando nelle fasi di recessione (come, peraltro, predetto da Keynes e da Minsky, intuito, prima di loro, da Thornton e Marx, e constatato suo malgrado da Mankiw). D'altra parte, la possibilità di definire un livello di produzione naturale a prescindere dalle condizioni di domanda, e dunque dagli investimenti delle imprese, è clamorosamente smentita proprio dalla necessità di rivedere continuamente le stime circa il PIL potenziale. Infine, da anni le principali banche centrali mondiali hanno abbandonato ogni velleità di controllo degli aggregati monetari (il caso più clamoroso è quello dell'abbandono del secondo pilastro della politica monetaria della BCE) per concentrarsi sulla regolazione del tasso di interesse di *policy*, lasciando che l'offerta di base monetaria si adegui alla domanda (attraverso operazioni di mercato aperto che hanno un ruolo di adeguamento passivo, non di determinazione attiva degli aggregati monetari, dato che ciò entrerebbe in conflitto con la fissazione del tasso di riferimento per i mercati).
 
+<table align="center">
+  <tr>
+    <td align="center">
+      <img src="figures/moneta_endogena.png" alt="La moneta endogena: il mercato dei prestiti a quattro quadranti" width="620">
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><em><b>Figura 1.</b> Il mercato dei prestiti nella teoria della moneta endogena, rappresentato a quattro quadranti. Nel <b>quadrante 1</b> (in alto a destra) la domanda di prestiti è decrescente nel tasso di interesse, mentre l'offerta è orizzontale al tasso sui prestiti, fissato dalle banche come <i>ricarico</i> (<i>markup</i>) sul tasso di <i>policy</i> deciso dalla banca centrale. Il <b>quadrante 2</b> traduce i prestiti in un pari ammontare di depositi (le banche creano depositi concedendo prestiti); il <b>quadrante 3</b> lega i depositi alle riserve tramite il coefficiente di riserva; il <b>quadrante 4</b> mostra la banca centrale che fornisce in modo accomodante le riserve così richieste, mantenendo il tasso di <i>policy</i>. Un aumento dei prezzi (freccia rossa) accresce la domanda di prestiti e, lungo la catena 1 → 2 → 3 → 4, fa aumentare depositi e riserve: è la crescita dei prezzi a trainare la quantità di moneta e di base monetaria, non il contrario. Adattato da Fontana e Setterfield (2009).</em></td>
+  </tr>
+</table>
+
 Il punto è che la relazione tra moneta e prezzi è assai più debole di quanto normalmente si ritenga, mentre la direzione del nesso causale appare rovesciata rispetto a quella postulata dalla teoria quantitativa della moneta. Si pensi ad un aumento del prezzo delle materie prime. Questo accrescerà i costi di produzione delle imprese, sia in modo diretto sia in modo indiretto, per via dei maggiori salari richiesti dai lavoratori. A parità di tasso di interesse, le imprese chiederanno quindi maggiori finanziamenti alle banche. Questi si tradurranno in maggiori depositi che, a loro volta, richiederanno maggiori riserve immesse nel sistema dalla banca centrale. Non è stata, dunque, la maggiore immissione di base monetaria a generare la crescita dei prezzi, ma quest'ultima a generare la prima.
 
 ## 10. Conclusioni
@@ -237,6 +248,7 @@ Il seguito naturale di questo mini-corso è il repository di lezioni dottorali *
 
 ## Riferimenti bibliografici essenziali
 
+- G. Fontana e M. Setterfield, "Macroeconomics, endogenous money and the contemporary financial crisis: a teaching model", *International Journal of Pluralism and Economics Education*, 2009, 1(1/2): 130-147.
 - A. Graziani, *The Monetary Theory of Production*, Cambridge University Press, 2003.
 - W. Godley, M. Lavoie, *Monetary Economics: An Integrated Approach to Credit, Money, Income, Production and Wealth*, Palgrave Macmillan, 2007.
 - J. M. Keynes, *The General Theory of Employment, Interest and Money*, 1936.
