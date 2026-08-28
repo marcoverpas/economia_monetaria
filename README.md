@@ -12,7 +12,7 @@
 </figure>
 </div>
 
-Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le lezioni dottorali disponibili qui: **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**. 
+Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le [lezioni per il dottorato di economia presso l'Università di Macerata, 2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025), e con la [terza parte](https://github.com/marcoverpas/analisi_economica#32-leconomia-come-insieme-di-bilanci-integrati-circuito-monetario-e-modelli-dinamici-fondi-flussi) del materiale associato all'insegnamento di [Analisi economica](https://github.com/marcoverpas/analisi_economica) presso l'Università dell'Aquila. 
 
 🚧 ATTENZIONE: *Work in progress* 🚧
 
@@ -235,7 +235,7 @@ Perché, vedete, aveva ragione Groucho Marx a ricordarci che, le cose importanti
 
 ## 11. Per approfondire
 
-Il seguito naturale di questo mini-corso è l'archivio di lezioni dottorali *in lingua inglese* denominate **[PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025)**, che sviluppa in forma più formale i temi qui introdotti:
+Il seguito naturale di questo mini-corso è l'archivio di lezioni dottorali *in lingua inglese* denominate [PhD_Lectures_Macerata_2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025), che sviluppa in forma più formale i temi qui introdotti:
 
 - **Lezione A** - [La teoria del circuito monetario](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025#lecture_a_the_monetary_circuit_theory): la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
 - **Lezione B** - [Modelli *stock-flow consistent* (SFC)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025#lecture_b_stock-flow_consistent_models): dal modello *PC* (scelta di portafoglio) al modello *BMW* (con moneta bancaria), fino alle estensioni *input-output* ed ecologiche.
