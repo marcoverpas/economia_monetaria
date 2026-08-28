@@ -240,7 +240,7 @@ Il seguito naturale di questo mini-corso è l'archivio di lezioni dottorali *in 
 - **Lezione A** - [La teoria del circuito monetario](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025#lecture_a_the_monetary_circuit_theory): la visione della moneta endogena, i presupposti della *Monetary Circuit Theory* e un modello del circuito in cinque passi (creazione, produzione, vendita, portafoglio, distruzione della moneta).
 - **Lezione B** - [Modelli *stock-flow consistent* (SFC)](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025#lecture_b_stock-flow_consistent_models): dal modello *PC* (scelta di portafoglio) al modello *BMW* (con moneta bancaria), fino alle estensioni *input-output* ed ecologiche.
 
-Una versione sintetica *in lingua italiana* delle stesse lezioni è disponibile anche nella terza parte del materiale associato all'insegnamento di [Analisi economica](https://github.com/marcoverpas/analisi_economica).
+Una versione sintetica *in lingua italiana* delle stesse lezioni è disponibile anche nella [terza parte](https://github.com/marcoverpas/analisi_economica#32-leconomia-come-insieme-di-bilanci-integrati-circuito-monetario-e-modelli-dinamici-fondi-flussi) del materiale associato all'insegnamento di [Analisi economica](https://github.com/marcoverpas/analisi_economica).
 
 ---
 
