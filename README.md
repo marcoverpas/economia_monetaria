@@ -12,7 +12,7 @@
 </figure>
 </div>
 
-Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le [lezioni per il dottorato di economia presso l'Università di Macerata, 2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025), e con la [terza parte](https://github.com/marcoverpas/analisi_economica#32-leconomia-come-insieme-di-bilanci-integrati-circuito-monetario-e-modelli-dinamici-fondi-flussi) del materiale associato all'insegnamento di [Analisi economica](https://github.com/marcoverpas/analisi_economica) presso l'Università dell'Aquila. 
+Il materiale è pensato come porta d'ingresso verso trattazioni più formali. Chi desideri approfondire la teoria del circuito monetario e i modelli *stock-flow consistent* (SFC) può proseguire con le [lezioni per il dottorato di economia presso l'Università di Macerata, 2025](https://github.com/marcoverpas/PhD_Lectures_Macerata_2025) (in lingua inglese), e con la [terza parte](https://github.com/marcoverpas/analisi_economica#32-leconomia-come-insieme-di-bilanci-integrati-circuito-monetario-e-modelli-dinamici-fondi-flussi) del materiale associato all'insegnamento di [Analisi economica](https://github.com/marcoverpas/analisi_economica) presso l'Università dell'Aquila. 
 
 🚧 ATTENZIONE: *Work in progress* 🚧
 
