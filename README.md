@@ -175,11 +175,18 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 
 <div align="center">
 <table>
-<tr><td width="820" align="center">
-<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/monetary_circuit.gif" width="800" alt="Il circuito della moneta"><br>
-<sub><em>Figura 1 - Lo schema base del circuito monetario di Graziani.</em></sub>
-</td></tr>
+<tr>
+<td width="410" align="center">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/esercizio_a.gif" width="390" alt="Esercizio (a): aumento del tasso di policy"><br>
+<sub><em>(a) Aumento del tasso di policy</em></sub>
+</td>
+<td width="410" align="center">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/esercizio_b.gif" width="390" alt="Esercizio (b): aumento della domanda di prestiti"><br>
+<sub><em>(b) Aumento della domanda di prestiti</em></sub>
+</td>
+</tr>
 </table>
+<sub><em>Figura 1 - Il grafico a quattro quadranti di prestiti, depositi e riserve: effetti di un aumento del tasso di policy (a) e di un aumento della domanda di prestiti (b).</em></sub>
 </div>
 
 Questa impostazione è nota come *teoria del circuito monetario*, ed ha avuto in Augusto Graziani ed altri autori italiani e francesi i propri maggiori esponenti. Essa consente di gettare luce sulla natura di *flusso endogeno* della moneta, in opposizione all'idea di moneta come *stock* esogeno (legata alla concezione del denaro come lubrificante degli scambi) e ad integrazione dell'idea di moneta come *stock* endogeno (legata alla teoria keynesiana della crisi). Ne derivano immediatamente alcuni corollari. Un primo corollario riguarda la sparizione del moltiplicatore della moneta. Un secondo corollario riguarda il rapporto tra moneta e prezzi.
