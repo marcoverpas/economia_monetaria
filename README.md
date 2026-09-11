@@ -189,6 +189,8 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 <sub><em>Figura 1 - Il grafico a quattro quadranti di prestiti, depositi e riserve: effetti di un aumento del tasso di policy (a) e di un aumento della domanda di prestiti (b).</em></sub>
 </div>
 
+<br><br>
+
 Questa impostazione è nota come *teoria del circuito monetario*, ed ha avuto in Augusto Graziani ed altri autori italiani e francesi i propri maggiori esponenti. Essa consente di gettare luce sulla natura di *flusso endogeno* della moneta, in opposizione all'idea di moneta come *stock* esogeno (legata alla concezione del denaro come lubrificante degli scambi) e ad integrazione dell'idea di moneta come *stock* endogeno (legata alla teoria keynesiana della crisi). Ne derivano immediatamente alcuni corollari. Un primo corollario riguarda la sparizione del moltiplicatore della moneta. Un secondo corollario riguarda il rapporto tra moneta e prezzi.
 
 > **Vedi il modello.** Il codice `R` del modello di circuito monetario utilizzato per produrre la Figura 1 può essere consultato e scaricato da [qui](monetary_circuit.R). Il codice `R` di una versione meno tradizionale, ma più avanzata (e, a mio avviso, accurata) del modello del circuito è disponibile [qui](https://github.com/marcoverpas/TMC-SFC-Model-R).
