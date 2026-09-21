@@ -176,17 +176,12 @@ Tale finanziamento iniziale fornito dalle banche consente alle imprese di acquis
 <div align="center">
 <table>
 <tr>
-<td width="410" align="center">
-<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/esercizio_a.gif" width="390" alt="Esercizio (a): aumento del tasso di policy"><br>
-<sub><em>(a) Aumento del tasso di policy</em></sub>
-</td>
-<td width="410" align="center">
-<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/esercizio_b.gif" width="390" alt="Esercizio (b): aumento della domanda di prestiti"><br>
-<sub><em>(b) Aumento della domanda di prestiti</em></sub>
+<td align="center">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/monetary_circuit.gif" width="640" alt="Il circuito monetario"><br>
 </td>
 </tr>
 </table>
-<sub><em>Figura 1 - Il grafico a quattro quadranti di prestiti, depositi e riserve: effetti di un aumento del tasso di policy (a) e di un aumento della domanda di prestiti (b).</em></sub>
+<sub><em>Figura 1 - Il circuito monetario. Le banche finanziano le imprese (creazione di moneta), che pagano i salari ai lavoratori; la moneta rifluisce poi alle imprese attraverso il mercato dei beni (consumi) e il mercato finanziario (acquisto di titoli), per essere infine distrutta con il rimborso dei prestiti alle banche. La parte tesaurizzata dai lavoratori, così come l'interesse monetario, non rifluisce nel circuito chiuso.</em></sub>
 </div>
 
 <br>
@@ -217,16 +212,23 @@ dove $Y$ è un indicatore del volume della produzione (o un vettore di quantità
 
 Sennonché, proprio l'instabilità monetaria e finanziaria che ha caratterizzato le maggiori economie mondiali a partire dalla fine degli anni Settanta ha mostrato che la velocità di circolazione della moneta è tutt'altro che stabile, aumentando nelle fasi di espansione e precipitando nelle fasi di recessione (come, peraltro, predetto da Keynes e da Minsky, intuito, prima di loro, da Thornton e Marx, e constatato suo malgrado da Mankiw). D'altra parte, la possibilità di definire un livello di produzione naturale a prescindere dalle condizioni di domanda, e dunque dagli investimenti delle imprese, è clamorosamente smentita proprio dalla necessità di rivedere continuamente le stime circa il PIL potenziale. Infine, da anni le principali banche centrali mondiali hanno abbandonato ogni velleità di controllo degli aggregati monetari (il caso più clamoroso è quello dell'abbandono del secondo pilastro della politica monetaria della BCE) per concentrarsi sulla regolazione del tasso di interesse di *policy*, lasciando che l'offerta di base monetaria si adegui alla domanda (attraverso operazioni di mercato aperto che hanno un ruolo di adeguamento passivo, non di determinazione attiva degli aggregati monetari, dato che ciò entrerebbe in conflitto con la fissazione del tasso di riferimento per i mercati).
 
-<table align="center">
-  <tr>
-    <td align="center">
-      <img src="https://raw.githubusercontent.com/marcoverpas/figures/main/moneta_endogena.png" alt="La moneta endogena: il mercato dei prestiti a quattro quadranti" width="620">
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><sub><em>Figura 2. Il mercato dei prestiti nella teoria della moneta endogena, rappresentato a quattro quadranti. Nel <b>quadrante 1</b> (in alto a destra) la domanda di prestiti è decrescente nel tasso di interesse, mentre l'offerta è orizzontale al tasso sui prestiti, fissato dalle banche come <i>ricarico</i> (<i>markup</i>) sul tasso di <i>policy</i> deciso dalla banca centrale. Il <b>quadrante 2</b> traduce i prestiti in un pari ammontare di depositi (le banche creano depositi concedendo prestiti); il <b>quadrante 3</b> lega i depositi alle riserve tramite il coefficiente di riserva; il <b>quadrante 4</b> mostra la banca centrale che fornisce in modo accomodante le riserve così richieste, mantenendo il tasso di <i>policy</i>. Un aumento dei prezzi (freccia rossa) accresce la domanda di prestiti e, lungo la catena 1 → 2 → 3 → 4, fa aumentare depositi e riserve: è la crescita dei prezzi a trainare la quantità di moneta e di base monetaria, non il contrario. Fonte: figura ripresa e adattata da Fontana e Setterfield (2009).</em><sub></td>
-  </tr>
+<div align="center">
+<table>
+<tr>
+<td width="410" align="center">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/esercizio_a.gif" width="390" alt="Esercizio (a): aumento del tasso di policy"><br>
+<sub><em>(a) Aumento del tasso di policy</em></sub>
+</td>
+<td width="410" align="center">
+<img src="https://raw.githubusercontent.com/marcoverpas/figures/main/esercizio_b.gif" width="390" alt="Esercizio (b): aumento della domanda di prestiti"><br>
+<sub><em>(b) Aumento della domanda di prestiti</em></sub>
+</td>
+</tr>
 </table>
+<sub><em>Figura 2 - Il mercato dei prestiti nella teoria della moneta endogena, rappresentato a quattro quadranti (prestiti, depositi, riserve, tasso di interesse). Nel quadrante 1 (in alto a destra) la domanda di prestiti è decrescente nel tasso di interesse, mentre l'offerta è orizzontale al tasso sui prestiti, fissato dalle banche come <i>ricarico</i> (<i>markup</i>) sul tasso di <i>policy</i>; il quadrante 2 traduce i prestiti in un pari ammontare di depositi (le banche creano depositi concedendo prestiti); il quadrante 3 lega i depositi alle riserve tramite il coefficiente di riserva; il quadrante 4 mostra la banca centrale che fornisce in modo accomodante le riserve così richieste, mantenendo il tasso di <i>policy</i>. Il pannello (a) illustra gli effetti di un aumento del tasso di <i>policy</i>; il pannello (b) quelli di un aumento della domanda di prestiti (ad esempio a seguito di prezzi più alti). In entrambi i casi sono i prestiti a trainare depositi e riserve, non il contrario. Fonte: figura ripresa e adattata da Fontana e Setterfield (2009).</em></sub>
+</div>
+
+<br>
 
 Il punto è che la relazione tra moneta e prezzi è assai più debole di quanto normalmente si ritenga, mentre la direzione del nesso causale appare rovesciata rispetto a quella postulata dalla teoria quantitativa della moneta. Si pensi ad un aumento del prezzo delle materie prime. Questo accrescerà i costi di produzione delle imprese, sia in modo diretto sia in modo indiretto, per via dei maggiori salari richiesti dai lavoratori. A parità di tasso di interesse, le imprese chiederanno quindi maggiori finanziamenti alle banche. Questi si tradurranno in maggiori depositi che, a loro volta, richiederanno maggiori riserve immesse nel sistema dalla banca centrale. Non è stata, dunque, la maggiore immissione di base monetaria a generare la crescita dei prezzi, ma quest'ultima a generare la prima.
 
